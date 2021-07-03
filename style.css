@@ -6,6 +6,7 @@
 
 :root {
     --primary-color: #00b4d8;
+    --secendry-color: #0077b6;
 }
 
 body {
@@ -100,10 +101,10 @@ body {
     border-radius: 13px;
     margin-top: 15px;
     background: linear-gradient(145deg, #6d6875, #6d6875);
-    box-shadow:  1px 1px 20px #bebebe,
-    -1px 0 20px #ffffff;
+    box-shadow:  0 0 0 #bebebe,
+    0 0 0 #ffffff;
     font-size: 15px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #fff;
     transition: .5s;    
 }
@@ -111,7 +112,7 @@ body {
 /* login btn hover effect */
 
 .login-button:hover {
-    background: var(--primary-color);
+    background: var(--secendry-color);
     cursor: pointer;
 }
 
