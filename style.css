@@ -7,6 +7,7 @@
 :root {
     --primary-color: #00b4d8;
     --secendry-color: #0077b6;
+    --bg-logo-color: #90e0ef;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 /* logo */
 
 .form-logo {
-    background: url(./image/logo-image.jpg) no-repeat center/cover #ffccd5;
+    background: url(./image/logo-image.jpg) no-repeat center/cover var(--bg-logo-color);
     width: 100px;
     height: 100px;
     border-radius: 50%;
